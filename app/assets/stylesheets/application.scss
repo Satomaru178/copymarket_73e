@@ -1,6 +1,9 @@
 // リセットCSS呼び出し
 @import "reset";
 
+// mixin用
+@import "mixin";
+
 // icon用
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
