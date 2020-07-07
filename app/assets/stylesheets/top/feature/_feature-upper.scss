@@ -32,5 +32,10 @@
     display: inline-block;
   }
 
-  
+  // タイトルの下に線を入れるための設定
+  &__title::after {
+    @include absolute(auto, 140px, -20px, 140px);
+    content: "";
+    border-bottom: 4px solid #20b2aa;
+  }
 }
