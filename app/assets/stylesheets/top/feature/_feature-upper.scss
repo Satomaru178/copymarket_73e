@@ -1,0 +1,24 @@
+// 3枚の絵、左
+#left.feature-upper__card-list__card__image {
+  @include backimg('material/pict/pict-reason-01.jpg', contain);
+}
+
+// 3枚の絵、真ん中
+#center.feature-upper__card-lists__card__image {
+  @include backimg('materila/pict/pict-reason-02.jpg', contain);
+}
+
+// 3枚の絵、右
+#right.feature-upper__card-lists__card__image {
+  @include backimg('material/pict/pict-reason-03.jpg', contain);
+}
+
+.feature-upper {
+  // 外枠の大きさ指定
+  @include box(100vw, 658px);
+  // 背景色、文字色指定
+  @include colors();
+  // 文字は中央揃え
+  text-align: center;
+
+}
