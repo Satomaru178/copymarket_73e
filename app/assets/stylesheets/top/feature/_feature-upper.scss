@@ -1,11 +1,11 @@
 // 3枚の絵、左
-#left.feature-upper__card-list__card__image {
+#left.feature-upper__card-lists__card__image {
   @include backimg('material/pict/pict-reason-01.jpg', contain);
 }
 
 // 3枚の絵、真ん中
 #center.feature-upper__card-lists__card__image {
-  @include backimg('materila/pict/pict-reason-02.jpg', contain);
+  @include backimg('material/pict/pict-reason-02.jpg', contain);
 }
 
 // 3枚の絵、右
