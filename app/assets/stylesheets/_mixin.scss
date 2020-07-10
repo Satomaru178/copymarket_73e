@@ -21,7 +21,7 @@
 
 // 背景画像、文字色指定
 @mixin colors($bgclr: #fff, $clr: #000) {
-  background-color: bgclr;
+  background-color: $bgclr;
   color: $clr;
 }
 
