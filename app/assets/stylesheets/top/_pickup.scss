@@ -4,7 +4,7 @@
 }
 
 // 4つの商品画像、2番目
-#second.pickup__products__lists__list_image {
+#second.pickup__products__lists__list__image {
   @include backimg('material/icon/icon-02.png', contain);
 }
 
